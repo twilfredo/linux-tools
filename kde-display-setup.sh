@@ -2,7 +2,7 @@
 # Switch between workstation monitor setup and gaming setup this depends on KDE and kscreen-tools
 
 primary="DP-1"
-# The monitor_mode is extraction from `kscreen-doctor --outputs
+# The monitor_mode is extracted from `kscreen-doctor --outputs
 primary_mode="2"
 secondary="DP-3"
 secondary_mode="1"
