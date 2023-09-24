@@ -47,7 +47,9 @@ set_media() {
 
 launch_steam() {
    echo "Launching steam in big picture mode"
-   steam -bigpicture &
+   #kill steam if it was running
+   pkill steam
+   nohup steam -bigpicture &
    steam_pid=$!
    wait "$steam_pid"
    set_workstation
